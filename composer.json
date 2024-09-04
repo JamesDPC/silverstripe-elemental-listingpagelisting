@@ -12,19 +12,14 @@
     "prefer-stable": true,
     "require": {
         "dnadesign/silverstripe-elemental": "^4 || ^5",
-        "symbiote/silverstripe-listingpage": "^2.3"
+        "symbiote/silverstripe-listingpage": "*"
     },
     "autoload": {
         "psr-4": {
             "Symbiote\\Elemental\\": "src/"
         }
     },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "2.0.x-dev"
-        }
-    },
-	"replace": {
-		"gheggie/silverstripe-elemental-listingpagelisting": "self.version"
-	}
+    "replace": {
+        "gheggie/silverstripe-elemental-listingpagelisting": "self.version"
+    }
 }
